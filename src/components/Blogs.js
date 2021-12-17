@@ -10,6 +10,9 @@ const Blogs = () => {
       blogs.map((blog =>
       console.log(blog)
     ))
+    response.data.map((blog =>
+    console.log(blog)
+  ))
       console.log('blogsss' + response.data)
     })
   }, [])
