@@ -12,7 +12,13 @@ const Blogs = () => {
   }, [])
 
   return (
-    <h1>Blogs</h1>
+    <>
+      <h1>Blogs</h1>
+      <ul>
+        {blogs.map(blog => <li key={blog.id}>{blog.id}</li>)}
+      </ul>
+    </>
+
   )
 
 }
