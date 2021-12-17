@@ -7,7 +7,7 @@ const Blogs = () => {
   useEffect(() => {
     blogService.getAll().then(response => {
       setBlogs(response)
-      console.log('blogsss ' + JSON.stringify(response))
+      console.log('blogsss ' + JSON.stringify(blogs))
     })
   }, [])
 
