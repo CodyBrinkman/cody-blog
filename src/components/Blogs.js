@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import blogService from '../services/blogs'
 import ReactMarkdown from 'react-markdown'
 
-const blogs = require('/mnt/www/blog_volume/blog-markdown')
+const blogs = require('../blogs')
 
 const Blogs = () => {
 
