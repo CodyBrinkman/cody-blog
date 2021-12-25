@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HelloWorld = () => {
+const TestBlog1 = () => {
 
   return (
     <>
@@ -11,4 +11,4 @@ const HelloWorld = () => {
 
 }
 
-export default HelloWorld
+export default TestBlog1

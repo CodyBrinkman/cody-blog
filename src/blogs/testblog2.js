@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Blog2 = () => {
+const TestBlog2 = () => {
 
   return (
     <>
@@ -11,4 +11,4 @@ const Blog2 = () => {
 
 }
 
-export default Blog2
+export default TestBlog2
