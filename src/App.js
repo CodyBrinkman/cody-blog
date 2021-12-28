@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import blogService from './services/blogs'
+//import blogService from './services/blogs'
 import Home from './components/Home'
 import Header from './components/Header'
 import Blogs from './components/Blogs'
@@ -12,21 +12,15 @@ import TestBlog2 from './blogs/testblog2'
 
 
 const App = () => {
-  const [blogs, setBlogs] = useState([])
+  //const [blogs, setBlogs] = useState([])
 
-  useEffect(() => {
-      blogService
-        .getAll()
-        .then(initialBlogs => {
-        setBlogs(initialBlogs)
-      })
-    }, [])
-
-  const getComponent = (name) => {
-    console.log('inGetComponent ' + name)
-    var MyComponent = name
-    return <MyComponent />
-  }
+  // useEffect(() => {
+  //     blogService
+  //       .getAll()
+  //       .then(initialBlogs => {
+  //       setBlogs(initialBlogs)
+  //     })
+  //   }, [])
 
   return (
     <>
@@ -34,7 +28,7 @@ const App = () => {
 
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/blogs' element={<Blogs blogs={blogs}/>} />
+        <Route path='/blogs' element={<Blogs/>} />
         <Route path='blogs/TestBlog1' element={<TestBlog1 />} />
         <Route path='blogs/TestBlog2' element={<TestBlog2 />} />
       </Routes>

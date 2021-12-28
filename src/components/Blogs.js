@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react'
-import ReactMarkdown from 'react-markdown'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
@@ -9,7 +8,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 
-const Blogs = ({ blogs }) => {
+const Blogs = () => {
 
   return (
     <>
@@ -17,22 +16,34 @@ const Blogs = ({ blogs }) => {
       <CardGroup>
       <Container>
       <Row xs={1} md={2}>
-      {blogs.map((blog, i) =>
         <Col>
-        <Card key={i} style={{ width: '18rem' }}>
+        <Card style={{ width: '18rem' }}>
           {/*}<Card.Img variant="top" src={require(`../images/${blog.filename}.png`)} thumbnail/>*/}
           <Card.Body>
-            <Card.Title>{blog.title}</Card.Title>
+            <Card.Title>Test Blog 1</Card.Title>
             <Card.Text>
-              {blog.description}
+              This is an example for blog 1
             </Card.Text>
-            <Link to={`/blogs/${blog.filename}`}>
+            <Link to={"/blogs/TestBlog1"}>
               <Button variant="primary">Read Blog</Button>
             </Link>
           </Card.Body>
         </Card>
         </Col>
-      )}
+        <Col>
+        <Card style={{ width: '18rem' }}>
+          {/*}<Card.Img variant="top" src={require(`../images/${blog.filename}.png`)} thumbnail/>*/}
+          <Card.Body>
+            <Card.Title>Test Blog 2</Card.Title>
+            <Card.Text>
+              This is an example for blog 2
+            </Card.Text>
+            <Link to={"/blogs/TestBlog1"}>
+              <Button variant="primary">Read Blog</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+        </Col>
       </Row>
       </Container>
       </CardGroup>
