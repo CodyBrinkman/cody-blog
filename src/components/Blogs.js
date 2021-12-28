@@ -13,14 +13,14 @@ const Blogs = ({ blogs }) => {
 
   return (
     <>
-      <h1>Blogs</h1>
+      <h1 style={{paddingLeft: 10}}>My Blogs</h1>
       <CardGroup>
       <Container>
-      <Row>
+      <Row xs={1} md={2}>
       {blogs.map((blog, i) =>
         <Col>
         <Card key={i} style={{ width: '18rem' }}>
-          <Card.Img variant="top" src={require(`../images/${blog.filename}.png`)} thumbnail/>
+          {/*}<Card.Img variant="top" src={require(`../images/${blog.filename}.png`)} thumbnail/>*/}
           <Card.Body>
             <Card.Title>{blog.title}</Card.Title>
             <Card.Text>

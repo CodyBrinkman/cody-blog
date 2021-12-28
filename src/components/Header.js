@@ -7,9 +7,9 @@ const Header = () => {
 
   return (
     <>
-      <Navbar className={'py-5'} bg='light' expand='lg' style={{fontSize: 14}}>
+      <Navbar className={'py-5'} bg='dark' variant="dark" expand='lg' style={{fontSize: 30}}>
         <Container>
-          <Navbar.Brand>Cody's Blog</Navbar.Brand>
+          <Navbar.Brand style={{fontSize: 36}}>Cody's Blog</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
