@@ -7,8 +7,8 @@ import {
   Routes, Route
 } from "react-router-dom"
 
-import TestBlog1 from './blogs/testblog1'
-import TestBlog2 from './blogs/testblog2'
+import DIYBlogs from './components/DIYBlogs'
+import TechBlogs from './components/TechBlogs'
 
 
 const App = () => {
@@ -29,8 +29,8 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/blogs' element={<Blogs/>} />
-        <Route path='blogs/TestBlog1' element={<TestBlog1 />} />
-        <Route path='blogs/TestBlog2' element={<TestBlog2 />} />
+        <Route path='blogs/DIYBlogs' element={<DIYBlogs />} />
+        <Route path='blogs/TechBlogs' element={<TechBlogs />} />
       </Routes>
     </>
   )
