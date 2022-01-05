@@ -12,15 +12,6 @@ import TechBlogs from './components/TechBlogs'
 
 
 const App = () => {
-  //const [blogs, setBlogs] = useState([])
-
-  // useEffect(() => {
-  //     blogService
-  //       .getAll()
-  //       .then(initialBlogs => {
-  //       setBlogs(initialBlogs)
-  //     })
-  //   }, [])
 
   return (
     <>

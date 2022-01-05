@@ -1,4 +1,7 @@
 import React from 'react'
+import CarouselPage from './Carousel'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 const Home = () => {
 
@@ -22,6 +25,12 @@ const Home = () => {
         If you stumbled across this site let me know that you made it and what you think by shooting an email to
         codybrinkmansoccer@gmail.com
       </div>
+      <br />
+      <Row className="justify-content-md-center">
+        <Col xs={6} sm={6} md={6} lg={6}>
+          <CarouselPage />
+        </Col>
+      </Row>
     </div>
   )
 
