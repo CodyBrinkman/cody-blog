@@ -7,9 +7,9 @@ const Home = () => {
 
   return (
     <div style={{paddingLeft: 10}}>
-      <h1>Home</h1>
+      <h1>Welcome!</h1>
       <div style={{fontSize: 18}}>
-        Welcome to my blog. The purpose of this blog is twofold:
+        The purpose of this blog is twofold:
         <ul>
           <li>Teach myself full stack web design</li>
           <li>Show you some cool tech and handyman stuff I have built in my life that I think is pretty cool</li>

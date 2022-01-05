@@ -9,7 +9,14 @@ const Header = () => {
     <>
       <Navbar className={'py-5'} bg='dark' variant="dark" expand='lg' style={{fontSize: 30}}>
         <Container>
-          <Navbar.Brand style={{fontSize: 36}}>Cody's Blog</Navbar.Brand>
+          <Navbar.Brand style={{fontSize: 36}}>
+            <img src={require(`../images/clogo.png`)}
+            width='50'
+            height='50'
+            alt=''
+            />{' '}
+            Cody's Blog
+          </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
