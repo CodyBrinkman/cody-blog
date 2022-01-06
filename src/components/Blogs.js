@@ -19,7 +19,7 @@ const Blogs = () => {
       <Row xs={1} md={2}>
         <Col>
           <Card style={{ width: '22rem' }}>
-            <Card.Img variant="top" src={require(`../images/diyblogs.png`)}/>
+            <Card.Img variant="top" src='/images/diyblogs.png'/>
             <Card.Body>
               <Card.Title>DIY Blogs</Card.Title>
               <Card.Text>
@@ -35,7 +35,7 @@ const Blogs = () => {
         </Col>
         <Col>
           <Card style={{ width: '22rem' }}>
-            <Card.Img variant="top" src={require(`../images/techblogs.png`)}/>
+            <Card.Img variant="top" src='/images/techblogs.png'/>
             <Card.Body>
               <Card.Title>Technical Blogs</Card.Title>
               <Card.Text>

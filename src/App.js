@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-//import blogService from './services/blogs'
 import Home from './components/Home'
 import Header from './components/Header'
 import Blogs from './components/Blogs'
@@ -9,6 +8,7 @@ import {
 
 import DIYBlogs from './components/DIYBlogs'
 import TechBlogs from './components/TechBlogs'
+import JewelryAntlers from './components/DIYBlogs/JewelryAntlers'
 
 
 const App = () => {
@@ -22,6 +22,7 @@ const App = () => {
         <Route path='/blogs' element={<Blogs/>} />
         <Route path='blogs/DIYBlogs' element={<DIYBlogs />} />
         <Route path='blogs/TechBlogs' element={<TechBlogs />} />
+        <Route path='/blogs/DIYBlogs/JewelryAntlers' element={<JewelryAntlers />} />
       </Routes>
     </>
   )

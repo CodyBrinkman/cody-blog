@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import CardGroup from 'react-bootstrap/CardGroup'
@@ -18,7 +17,7 @@ const TechBlogs = () => {
     <Row>
       <Col>
         <Card style={{ width: '22rem' }}>
-          <Card.Img variant="top" src={require(`../images/awss3.png`)}/>
+          <Card.Img variant="top" src='/images/awss3.png'/>
           <Card.Body>
             <Card.Title>How to use AWS S3 presigned URLs with OCI Object Storage</Card.Title>
             <Card.Text>
@@ -33,7 +32,7 @@ const TechBlogs = () => {
       </Col>
       <Col>
         <Card style={{ width: '22rem' }}>
-          <Card.Img variant="top" src={require(`../images/testocidns.png`)}/>
+          <Card.Img variant="top" src='/images/testocidns.png'/>
           <Card.Body>
             <Card.Title>Testing OCI DNS and Traffic Management steering policies before migration</Card.Title>
             <Card.Text>
@@ -48,7 +47,7 @@ const TechBlogs = () => {
       </Col>
       <Col>
         <Card style={{ width: '22rem' }}>
-          <Card.Img variant="top" src={require(`../images/activefailover.png`)}/>
+          <Card.Img variant="top" src='/images/activefailover.png'/>
           <Card.Body>
             <Card.Title>Setting up active failover with OCI Traffic Management Steering</Card.Title>
             <Card.Text>
@@ -68,7 +67,7 @@ const TechBlogs = () => {
     <Row>
       <Col>
         <Card style={{ width: '22rem' }}>
-          <Card.Img variant="top" src={require(`../images/godaddy.png`)}/>
+          <Card.Img variant="top" src='/images/godaddy.png'/>
           <Card.Body>
             <Card.Title>GoDaddy DNS management through Oracle Cloud Infrastructure</Card.Title>
             <Card.Text>

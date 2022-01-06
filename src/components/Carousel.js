@@ -1,5 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import { Link } from 'react-router-dom'
+import Button from 'react-bootstrap/Button'
 
 const CarouselPage = () => {
 
@@ -9,18 +11,20 @@ const CarouselPage = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require(`../images/jewelryantlers.png`)}
+            src='/images/jewelryantlers.png'
             alt="First slide"
           />
           <Carousel.Caption>
             <h3>Deer Antler Jewelry Holder</h3>
-            <p>View DIY Blogs for Build</p>
+            <Link to={'/blogs/DIYBlogs/JewelryAntlers'}>
+              <Button variant="primary">Read Blog</Button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require(`../images/manofdreams.png`)}
+            src='/images/manofdreams.png'
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -31,7 +35,7 @@ const CarouselPage = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src={require(`../images/cuttingboard.png`)}
+            src='/images/cuttingboard.png'
             alt="Third slide"
           />
           <Carousel.Caption>

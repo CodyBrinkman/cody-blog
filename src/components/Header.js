@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar className={'py-5'} bg='dark' variant="dark" expand='lg' style={{fontSize: 30}}>
         <Container>
           <Navbar.Brand style={{fontSize: 36}}>
-            <img src={require(`../images/clogo.png`)}
+            <img src='/images/clogo.png'
             width='50'
             height='50'
             alt=''
