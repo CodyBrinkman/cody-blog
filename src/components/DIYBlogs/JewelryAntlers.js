@@ -66,7 +66,7 @@ const JewelryAntlers = () => {
           Lastly, I went back to the craft store and picked up a piece of drawer liner with adhesive on the back. I cut it with a razor, peeled, and stuck. Simple as that.
           <Image name='liningbox' caption='Figure 11: Lining the box'/>
           <br />
-          <h3>7. The last piece of flare</h3>
+          <h3>7. The minimum flair</h3>
         </div>
       </div>
     </>
