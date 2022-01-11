@@ -5,6 +5,7 @@ import Blogs from './components/Blogs'
 import {
   Routes, Route
 } from "react-router-dom"
+import ScrollToTop from './components/ScrollToTop'
 
 import DIYBlogs from './components/DIYBlogs'
 import TechBlogs from './components/TechBlogs'
@@ -16,14 +17,15 @@ const App = () => {
   return (
     <>
       <Header />
-
+      <ScrollToTop>
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/blogs' element={<Blogs/>} />
-        <Route path='blogs/DIYBlogs' element={<DIYBlogs />} />
-        <Route path='blogs/TechBlogs' element={<TechBlogs />} />
-        <Route path='/blogs/DIYBlogs/JewelryAntlers' element={<JewelryAntlers />} />
-      </Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/blogs' element={<Blogs/>} />
+          <Route path='blogs/DIYBlogs' element={<DIYBlogs />} />
+          <Route path='blogs/TechBlogs' element={<TechBlogs />} />
+          <Route path='/blogs/DIYBlogs/JewelryAntlers' element={<JewelryAntlers />} />
+        </Routes>
+      </ScrollToTop>
     </>
   )
 

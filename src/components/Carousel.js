@@ -29,7 +29,7 @@ const CarouselPage = () => {
           />
           <Carousel.Caption>
             <h3>Man of Dreams Picture Holder</h3>
-            <p>View DIY Blogs for Build</p>
+            <Button variant="primary">Coming Soon</Button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -40,7 +40,7 @@ const CarouselPage = () => {
           />
           <Carousel.Caption>
             <h3>Custom Cutting Board</h3>
-            <p>View DIY Blogs for Build</p>
+            <Button variant="primary">Coming Soon</Button>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -6,9 +6,9 @@ import Col from 'react-bootstrap/Col'
 const Home = () => {
 
   return (
-    <div style={{paddingLeft: 10}}>
+    <div style={{paddingLeft: 10, paddingRight: 10}}>
       <h1>Welcome!</h1>
-      <div style={{fontSize: 18}}>
+      <div style={{fontSize: 22}}>
         The purpose of this blog is twofold:
         <ul>
           <li>Teach myself full stack web design</li>
