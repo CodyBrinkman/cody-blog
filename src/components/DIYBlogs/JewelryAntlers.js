@@ -63,10 +63,21 @@ const JewelryAntlers = () => {
           I am nowhere near an expert when it comes to finishing, but sanding, tack cloth, couple coats of stain, and poly hasn't let me down yet and is what I did here. Depending on the wood you used you probably want to follow a different process, but as with any project, Google is your friend!
           <Image name='stainingbox' caption='Figure 10: Finishing the box'/>
           <br />
-          Lastly, I went back to the craft store and picked up a piece of drawer liner with adhesive on the back. I cut it with a razor, peeled, and stuck. Simple as that.
+          Lastly, I went back to the craft store and picked up a piece of drawer liner with adhesive on the back. I cut it with a razor, peeled, and stuck. Simple as that. Then to mount the antlers to it I just drilled a couple holes in the bottom and used screws.
           <Image name='liningbox' caption='Figure 11: Lining the box'/>
           <br />
           <h3>7. The minimum flair</h3>
+          First off, if you haven't seen Office Space, go watch it. Secondly, I must thank my dad for this part, and I'll be honest it might be my favorite aspect of the whole build. If you go look at Figure 8 you will see I have a large empty face at the front of my antler base, so my dad suggested I fill it with something. The person I was making this for has a first initial L, so the first thought was to brand an L. Luckily, I saved a piece of scrap leather to test with. I found the brand (done with a soldering iron) didn't pop enough. This is when I activated the right side of my brain and started thinking of ways to make an L that would pop. I went back to my local craft store and walked the isles looking for motivation. I came across some malleable gold wire and loved the idea of bending it into a cursive L.
+          <br />
+          <br />
+          I measured roughly the size I wanted, then pulled up a Word doc and tested a capital L in about every fancy font they had. When I found the right on (I forget which font it was) I printed it out and started bending. Using a pair of needle nose pliers for the tight corners, I found this was easier than expected. I could not be happier with how it turned out. To attach it I just put a couple dots of hot glue on the back and placed into position. I encourage you to be creative with your flair to truly make this build yours.
+          <Image name='wireL' caption='Figure 12: My flair'/>
+          <br />
+          <h3>8. Congrats!</h3>
+          If you made it this far hopefully you either have a kick ass deer antler piece, or you at least enjoyed reading about my journey. I mentioned his name a couple of times, but this project would not have been possible without the help of my dad. If you continue to read my DIY blogs you will hear his name a lot as I often rely on his advise, expertise, and hands on help (oh and also his tools). Here is my final product.
+          <Image name='finished' caption='Figure 13: The finished product'/>
+          <br />
+          <h3>9. The grand reveal</h3>
         </div>
       </div>
     </>
