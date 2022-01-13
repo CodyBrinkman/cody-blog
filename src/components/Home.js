@@ -12,7 +12,7 @@ const Home = () => {
         The purpose of this blog is twofold:
         <ul>
           <li>Teach myself full stack web design</li>
-          <li>Show you some cool tech and handyman stuff I have built in my life that I think is pretty cool</li>
+          <li>Show you some cool tech and handyman stuff I have built in my life that I think is pretty cool (and easy to make)</li>
         </ul>
 
         As you can see, it is not the most aesthetically pleasing at the moment. That is because rather than paying

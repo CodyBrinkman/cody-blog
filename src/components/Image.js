@@ -27,7 +27,7 @@ const Image = ( {name, caption} ) => {
         <Figure onClick={() => handleShow()} style={{'cursor':'pointer'}}>
           <Figure.Image
             alt=''
-            src={`/images/jewelryantlers/${name}.png`}
+            src={`/images/${name}.png`}
           />
           <Figure.Caption>
             {caption}
@@ -43,7 +43,7 @@ const Image = ( {name, caption} ) => {
         <Figure onClick={() => handleShow()}>
           <Figure.Image
             alt=''
-            src={`/images/jewelryantlers/${name}.png`}
+            src={`/images/${name}.png`}
           />
         </Figure>
       </Modal.Body>
