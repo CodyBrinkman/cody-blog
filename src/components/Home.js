@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import CarouselPage from './Carousel'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Form from 'react-bootstrap/Form'
 
 const Home = () => {
+
 
   return (
     <div style={{paddingLeft: 10, paddingRight: 10}}>
@@ -26,7 +28,7 @@ const Home = () => {
         codybrinkmansoccer@gmail.com
       </div>
       <br />
-      <Row className="justify-content-md-center">
+      <Row className='justify-content-md-center'>
         <Col xs={6} sm={6} md={6} lg={6}>
           <CarouselPage />
         </Col>
